@@ -66,3 +66,8 @@ class Post(db.Model):
         if new:
             db.session.add(self)
         db.session.commit()
+
+    def delete(self):
+        obj=db.session.query(User).filter(User.id==7).first()
+        db.session.delete(obj)
+        db.session.commit()
