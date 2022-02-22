@@ -1,7 +1,7 @@
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
 | Aspects       | Azure VM                  | Azure App Service         |
-| :------------ |:---------------:          | ----------------------:|
+| :------------: |:---------------:          | :----------------------:|
 | Pricing       | More expensive.           | Cheaper. For e.g. Basic Tier; |
 |               | A1 v2: 1 Cores,           | 1 B1 (1 Core(s), |
 |               | 2 GB RAM,                 | 1.75 GB RAM, |
