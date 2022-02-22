@@ -7,19 +7,12 @@
 |               | 2 GB RAM,                 | 1.75 GB RAM, |
 |               | 10 GB Temporary           | 10 GB Storage) x 730 Hours; |
 |               | storage, $0.065/hour      | Windows OS |
-|               | On average:               | On average: Monthly: $32.12 |
-|               | Monthly: $47.45           |                             |
-| Scalability   | Platform image:1000 nodes | 30 instances, |
-|               | per scale set,            | 100 with App Service Environment. |
-|               | Custom image: 600 nodes   | 14GB of memory and 4 vCPU cores per instance max |
-|               | per scale set             |  
-| Availability  | 95% of Connectivity       | 99.95% of Available is the least. |
-|               | is the least              | No SLA is provided for Apps under either the Free or Shared tiers  |
+|               | On average: Monthly: $47.45 | On average: Monthly: $32.12 |
+|               | Offer Pay-as-you-go and reserved (with discount) | Don't offer Pay-as-you-Go |
+| Scalability   | Scale limit: Platform image: 1000 nodes per scale set, Custom image: 600 nodes per scale set. | Scale limit: 30 instances, 100 with App Service Environment. 14GB of memory and 4 vCPU cores per instance max. Vertical scaling, without having to redeploy.|
+| Availability  | 95% of Connectivity is the least      | 99.95% of Available is the least. No SLA is provided for Apps under either the Free or Shared tiers |
 | Workflow      | Infrastructure-as-a-Service  | Platform-as-a-Service   |
-|               | Focus on applications, Data | Focus on application and Data   |
-|               | runtime, middleware,  |    |
-|               | OS                    |    |
-|               |                       |    |
+|               | Focus on applications, data, runtime, middleware, OS| Focus on application and Data   |
 
 - App service: Only be responsible for developing part of the project and deploying code. It is useful for teams with less members and less experience hardware. Azure service is simple, quick, and easy for deploying web apps. App Service have constraints about scalability comparing to Azure VM.
 
